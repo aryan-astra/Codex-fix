@@ -30,6 +30,7 @@ A community-maintained collection of troubleshooting guides for Codex. Each guid
 | Problem | Applies to | Guide |
 | --- | --- | --- |
 | A response disconnects before completion | Desktop or CLI response interrupted during streaming | [Diagnose a disconnected stream](fixes/codex-stream-disconnected-before-completion.md) |
+| A request returns 401 after successful ChatGPT sign-in | Desktop or CLI using ChatGPT authentication | [Check and refresh the stored sign-in](fixes/codex-chatgpt-sign-in-succeeds-but-requests-return-401.md) |
 | Starting a chat fails because a hook expects a sequence | Inline TOML hooks in Desktop or CLI | [Repair the hook configuration](fixes/codex-cli-hooks-configuration-map-expected-sequence.md) |
 | Bubblewrap fails before a command or patch runs | Linux or WSL2 | [Diagnose the namespace failure](fixes/codex-linux-bubblewrap-namespace-failure.md) |
 | Sandbox refresh fails before a file edit | Native Windows sandbox | [Diagnose the patch helper failure](fixes/codex-windows-sandbox-apply-patch-refresh-error.md) |
