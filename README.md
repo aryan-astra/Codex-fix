@@ -12,6 +12,7 @@ A community-maintained collection of troubleshooting guides for Codex. Each guid
 | Creating a permanent worktree fails with an invalid `refs/heads/HEAD` ref | Desktop builds affected by the ref resolution bug | [Create the worktree directly with Git](fixes/codex-desktop-permanent-worktree-invalid-head.md) |
 | A new worktree is missing local files or dependencies | Codex-managed worktrees | [Restore worktree setup](fixes/codex-desktop-worktree-missing-setup.md) |
 | A connected host is missing from the phone | Codex Remote Control | [Restore the connection](fixes/codex-remote-control-host-not-visible.md) |
+| The window stays on the startup spinner after an update | Windows Store package build `26.924.2738.0` and nearby affected builds | [Try a targeted app-server restart](fixes/codex-windows-startup-spinner-after-update.md) |
 
 ### Command line
 
