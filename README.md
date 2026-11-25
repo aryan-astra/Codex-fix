@@ -9,6 +9,7 @@ A community-maintained collection of troubleshooting guides for Codex. Each guid
 | Problem | Applies to | Guide |
 | --- | --- | --- |
 | Local projects disappear from the sidebar and Projects page, but the project folders still exist | Codex Desktop on Windows with a missing renderer project cache and intact local project records | [Restore missing local projects](fixes/codex-desktop-missing-local-projects.md) |
+| A WSL project opens at the right Linux directory but shows no old chats | Codex Desktop on Windows after moving from the legacy WSL agent to a WSL connection | [Recover missing WSL project chats](fixes/codex-desktop-wsl-projects-missing-chats.md) |
 | Creating a permanent worktree fails with an invalid `refs/heads/HEAD` ref | Desktop builds affected by the ref resolution bug | [Create the worktree directly with Git](fixes/codex-desktop-permanent-worktree-invalid-head.md) |
 | A new worktree is missing local files or dependencies | Codex-managed worktrees | [Restore worktree setup](fixes/codex-desktop-worktree-missing-setup.md) |
 | A connected host is missing from the phone | Codex Remote Control | [Restore the connection](fixes/codex-remote-control-host-not-visible.md) |
